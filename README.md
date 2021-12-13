@@ -22,13 +22,22 @@ My previous work on this was a model/paper called SignalTrain ([SignalTrain Demo
 One of the general "inverse" effects I had some success with, but never fully investigated, was time alignment. SignalTrain could do it, and what was really interesting is that SignalTrain would fill in the silent gaps created when late audio is moved earlier, not via time-stretching like most humans would do, but by filling in "more" of whatever the signal is -- e.g. by continuing a decaying sine wave without lowering its frequency.
 
 ## Model Design Ideas
+
+### Architecture(s)?
 Use whatever models people think would be best (e.g. Steinmetz's micro-tcn or steerable-nafx, or others).
 
+### Channels?
 Multi-channel audio strongly preferred.  Mono-only is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
+
+### Overall Strategy?
 1. Re-synthesize all audio (Hawley default) or
 2. (thanks to convo with Steinmetz): Only predict where to make the "cuts" and then fix/resynthesize the transitions between moved samples -- what one might call a "Neural Beat Detective Cleaner-Upper."
 
-## To-Do List
+### (Simplifying) Assumptions?
+Christian Steinmetz: "Do we also make the assumption that we know the audio file starts on the first beat of the song and that the tempo is constant?"
+
+
+## Partial To-Do List
 Datasets: Decide how to generate/encode datasets.
 * Tunable grid interval: Add a "metronome track" and/or positional encoding?
 * What kind of data?
