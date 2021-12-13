@@ -44,7 +44,8 @@ Datasets: Decide how to generate/encode datasets.
     * Human-edited data: I could ask for human-edited datasets from Nashville engineers (i.e., before & after editing), however note that these will all likely include time-stretching -- which is not necessarily a bad thing, just a "feature" to keep in mind.
 
 ## Ethical Issues
-Drum editing is often viewed as a thankless task thus typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment positions in the music production industry.
+Drum editing is often viewed as a thankless task and thus is typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment opportunities in the music production industry. However the added "win" of time-saving may open up new opportunities for entry-level work for which we are not yet aware. 
+
 
 
 ## Team Member Roles
