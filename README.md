@@ -31,11 +31,10 @@ Multi-channel audio strongly preferred.  Mono-only is useful, but true drum edit
 
 ### Overall Strategy?
 1. Re-synthesize all audio (Hawley's default idea) or
-2. (thanks to convo with Steinmetz): Only predict where to make the "cuts" and then fix/resynthesize the transitions between moved samples -- what one might call a "Neural Beat Detective Cleaner-Upper."
+2. (thanks to convo with Steinmetz): Only predict where to make the "cuts" and then fix/resynthesize the transitions between moved samples -- what one might call a "Neural Beat Detective Cleaner-Upper."  This has the potential to allow higher-quality audio while needing fewer trainable parameters, although making sure the process is fully differentiable may require some special treatment for the cutting-and-pasting parts (e.g. an interpolation scheme or sigmoid-tunable wet/dry mix, or ??). 
 
 ### (Simplifying) Assumptions?
 Christian Steinmetz: "Do we also make the assumption that we know the audio file starts on the first beat of the song and that the tempo is constant?"
-
 
 ## Partial To-Do List
 Datasets: Decide how to generate/encode datasets.
