@@ -6,6 +6,8 @@ A proposal for collaboration in the [NASH Hackathon](https://signas-qmul.github.
 ## Summary
 Training a network to learn time alignment, e.g. drum performance editing, as an audio effect. In the music production industry, this is "grunt work" that typically done "by hand": algorithms such as Beat Detective provide a good first approximation, but invariably need to be corrected by humans. 
 
+(**Note:** we say "drum editing" but time-alignment can be applied to any recording of a live performance, e.g. guitars & vocals. Somewhat unique to the drum domain is the fixing of "flam," i.e., cases when different drums/objects are not all hit at quite the same time.)
+
 It's been shown (by Hawley, in talks to the AES [such as this one](https://hedges.belmont.edu/AES_ML_2020/), but not published) that neural networks can learn to do time alignment of audio signals -- i.e. resynthesizing a sequence of randomly-spaced audio samples such that they occur at a regular spacing or "grid."  And I expect that newer/better models could do as well or better, especially models based on transformers, which are "a differentiable way to do alignment" (as said by Lucas Kaiser, co-author on "Attention is All You Need" and "Reformer" papers). (SignalTrain had a lot of similarities to transformers BTW.)   Recent work by Christian Steinmetz & Josh Reiss, and others around the world, also present interesting candidates for viable models.
 
 ## Hypothesis/es
