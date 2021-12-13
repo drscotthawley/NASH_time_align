@@ -45,3 +45,9 @@ Datasets: Decide how to generate/encode datasets.
 
 ## Ethical Issues
 Drum editing is often viewed as a thankless task thus typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment positions in the music production industry.
+
+
+## Team Member Roles
+- dataset generation & preparation
+- model training (multiple models).
+- evaluation / comparison of results
