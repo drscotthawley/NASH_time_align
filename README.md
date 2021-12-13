@@ -11,7 +11,7 @@ Training a network to learn time alignment, e.g. drum performance editing, as an
 It's been shown (by Hawley, in talks to the AES [such as this one](https://hedges.belmont.edu/AES_ML_2020/), but not published) that neural networks can learn to do time alignment of audio signals -- i.e. resynthesizing a sequence of randomly-spaced audio samples such that they occur at a regular spacing or "grid."  And I expect that newer/better models could do as well or better, especially models based on transformers, which are "a differentiable way to do alignment" (as said by Lucas Kaiser, co-author on "Attention is All You Need" and "Reformer" papers). (SignalTrain had a lot of similarities to transformers BTW.)   Recent work by Christian Steinmetz & Josh Reiss, and others around the world, also present interesting candidates for viable models.
 
 ## Hypothesis/es
-It seems likely that transformer-based models would outperform purely convnet-based models, however if one were to add a positional encoding scheme (e.g. via extra audio channels) then purely convnet-based models might do fine.  Beat Detective output could serve as a baseline; not sure how it would perform, but the hope would be for the neural network "beat" Beat Detective somehow! 
+It seems likely that transformer-based models would outperform purely convnet-based models, however if one were to add a positional encoding scheme (e.g. via extra audio channels) then purely convnet-based models might do fine.  Beat Detective output could serve as a baseline; not sure how it would perform, but the hope would be for the neural network to "beat" Beat Detective somehow! 
 
 ## Background
 
