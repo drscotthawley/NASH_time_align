@@ -15,6 +15,8 @@ It seems likely that transformer-based models would outperform purely convnet-ba
 
 ![time alignment description images](https://raw.githubusercontent.com/drscotthawley/NASH_time_align/main/time_align_description.png)
 
+*(Image source: ["Learning Tunable Audio Effects via Neural Networks with Self-Attention"](https://hedges.belmont.edu/AES_ML_2020), AES Virtual Symposium: Applications of Machine Learning in Audio, Sep 28, 2020.)*
+
 My previous work on this was a model/paper called SignalTrain ([SignalTrain Demo Page](https://signaltrain.herokuapp.com)), which never achieved great audio quality due to noise artifacts, and which in IMO has been essentially supplanted by works by Christian Steinmentz & Josh Reiss, and cf. works by Marco Martinez et al.  SignalTrain was intended to learn "general" audio effects but for our first paper we stuck with compressors because they were "hard".  The second paper (Mitchell & Hawley) tried some other effects, e.g. Leslie horns, but  was largely preoccupied with getting the noise down.  Newer models, as you know, have much less noise!
 
 One of the general "inverse" effects I had some success with, but never fully investigated, was time alignment. SignalTrain could do it, and what was really interesting is that SignalTrain would fill in the silent gaps created when late audio is moved earlier, not via time-stretching like most humans would do, but by filling in "more" of whatever the signal is -- e.g. by continuing a decaying sine wave without lowering its frequency.
