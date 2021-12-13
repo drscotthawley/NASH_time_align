@@ -27,7 +27,7 @@ Multi-channel audio strongly preferred.  Only mono is useful, but true drum edit
 Datasets: Decide how to generate/encode datasets.
 * Tunable grid interval: Add a "metronome track" and/or positional encoding?
 * What kind of data?
-        * Machine-generated data: Write code to grab "samples" and paste them along a grid (for targets) and "randomly messed up" (for inputs).
+        * Machine-generated data: Write code to grab "samples" and paste them along a grid (for targets) and "randomly messed up" (for inputs). I have some of this already [in the SignalTrain code](https://github.com/drscotthawley/signaltrain/blob/7d93cb4b63cc4ebd1a2f7a06e3192d755f56739d/signaltrain/audio.py#L585).
         * Human-edited data: I could ask for human-edited datasets from Nashville engineers (i.e., before & after editing), however note that these will all likely include time-stretching.
 
 ## Ethical Issues
