@@ -52,6 +52,11 @@ Drum editing is often viewed as a thankless task and thus is typically relegated
 - evaluation / comparison of results
 - ...more?
 
+## Desired Skill-Sets
+- Anybody actually used Beat Detective much? ;-) I haven't in probably a decade
+- Usual ML skills: Python proficiency, ability to read instructions & train a model, evaluate a model 
+- ...more?
+
 ## Questions For You
 - ^ See above questions in "Model Design Ideas" and "Partial To Do List".  What do you think the answers should be?
 - How would you like to be involved?
