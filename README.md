@@ -24,7 +24,7 @@ One of the general "inverse" effects I had some success with, but never fully in
 ## Model Design Ideas
 
 ### Architecture(s)?
-Use whatever models people think would be best (e.g. Steinmetz's micro-tcn or steerable-nafx, or others).
+Use whatever models people think would be best (e.g. Steinmetz's micro-tcn or steerable-nafx, or others). SignalTrain is "old" and won't work with latest library version, but I could perhaps update it to use for comparison; there will be probably be noise though.
 
 ### Channels?
 Multi-channel audio strongly preferred.  Mono-only is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
