@@ -50,6 +50,7 @@ Drum editing is often viewed as a thankless task and thus is typically relegated
 - dataset generation & preparation
 - model training (multiple models).
 - evaluation / comparison of results
+- ...more?
 
 ## Questions For You
 - ^ See above questions in "Model Design Ideas" and "Partial To Do List".  What do you think the answers should be?
