@@ -30,7 +30,7 @@ Use whatever models people think would be best (e.g. Steinmetz's micro-tcn or st
 Multi-channel audio strongly preferred.  Mono-only is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
 
 ### Overall Strategy?
-1. Re-synthesize all audio (Hawley default) or
+1. Re-synthesize all audio (Hawley's default idea) or
 2. (thanks to convo with Steinmetz): Only predict where to make the "cuts" and then fix/resynthesize the transitions between moved samples -- what one might call a "Neural Beat Detective Cleaner-Upper."
 
 ### (Simplifying) Assumptions?
