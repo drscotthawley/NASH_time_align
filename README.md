@@ -22,7 +22,7 @@ My previous work on this was a model/paper called SignalTrain ([SignalTrain Demo
 One of the general "inverse" effects I had some success with, but never fully investigated, was time alignment. SignalTrain could do it, and what was really interesting is that SignalTrain would fill in the silent gaps created when late audio is moved earlier, not via time-stretching like most humans would do, but by filling in "more" of whatever the signal is -- e.g. by continuing a decaying sine wave without lowering its frequency.
 
 ## Model Design Ideas
-Use whatever models (e.g. Steinmetz's micro-tcn or steerable-nafx) people think would be best.
+Use whatever models people think would be best (e.g. Steinmetz's micro-tcn or steerable-nafx, or others).
 
 Multi-channel audio strongly preferred.  Only mono is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
 1. Re-synthesize all audio (Hawley default) or
