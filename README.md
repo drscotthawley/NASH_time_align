@@ -12,11 +12,7 @@ It's been shown (by me, in talks to the AES [such as this one](https://hedges.be
 It seems likely that transformer-based models would outperform purely convnet-based models, however if one were to add a positional encoding scheme (e.g. via extra audio channels) then purely convnet-models might do fine.
 
 ## Background
-My previous work on this was a model/paper called SignalTrain (https://signaltrain.herokuapp.com
-SignalTrain Demo
-SignalTrain Demo Page Supplemental Materials accompanying the paper "SignalTrain: Profiling Audio Compressors with Deep Neural Networks" by Scott H. Hawley, Benjamin Colburn, Stylianos I. Mimilakis
-signaltrain.herokuapp.com
-), which never achieved great audio quality due to noise artifacts, and which in IMO has been essentially supplanted by works by Christian Steinmentz & Josh Reiss, and cf. works by Marco Martinez et al.  SignalTrain was intended to learn "general" audio effects but for our first paper we stuck with compressors because they were "hard".  The second paper (Mitchell & Hawley) tried some other effects, e.g. Leslie horns, but  was largely preoccupied with getting the noise down.  Newer models, as you know, have much less noise!
+My previous work on this was a model/paper called SignalTrain ([SignalTrain Demo Page](https://signaltrain.herokuapp.com)), which never achieved great audio quality due to noise artifacts, and which in IMO has been essentially supplanted by works by Christian Steinmentz & Josh Reiss, and cf. works by Marco Martinez et al.  SignalTrain was intended to learn "general" audio effects but for our first paper we stuck with compressors because they were "hard".  The second paper (Mitchell & Hawley) tried some other effects, e.g. Leslie horns, but  was largely preoccupied with getting the noise down.  Newer models, as you know, have much less noise!
 
 One of the general "inverse" effects I had some success with, but never fully investigated, was time alignment. SignalTrain could do it, and what was really interesting is that SignalTrain would fill in the silent gaps created when late audio is moved earlier, not via time-stretching like most humans would do, but by filling in "more" of whatever the signal is -- e.g. by continuing a decaying sine wave without lowering its frequency.
 
