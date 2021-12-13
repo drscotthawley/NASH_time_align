@@ -1,7 +1,7 @@
 # Learning (to do) Time Alignment
 *or "Neural Beat Detective"*
 
-A proposal for collaboration in the NASH Hackathon.
+A proposal for collaboration in the NASH Hackathon.  This is limited-scope project for which diverse ideas, perspectives, and skillsets could really pay off! 
 
 ## Summary
 Training a network to learn time alignment, e.g. drum performance editing, as an audio effect. In the music production industry, this is "grunt work" that typically done "by hand": algorithms such as Beat Detective provide a good first approximation, but invariably need to be corrected by humans. 
@@ -17,7 +17,7 @@ It seems likely that transformer-based models would outperform purely convnet-ba
 
 Note how in the above image the Output (green) and Target (red) waveforms are essentially on top of each other. *(Image source: ["Learning Tunable Audio Effects via Neural Networks with Self-Attention"](https://hedges.belmont.edu/AES_ML_2020), AES Virtual Symposium: Applications of Machine Learning in Audio, Sep 28, 2020.)*
 
-My previous work on this was a model/paper called SignalTrain ([SignalTrain Demo Page](https://signaltrain.herokuapp.com)), which never achieved great audio quality due to noise artifacts, and which in IMO has been essentially supplanted by works by Christian Steinmentz & Josh Reiss, and cf. works by Marco Martinez et al.  SignalTrain was intended to learn "general" audio effects but for our first paper we stuck with compressors because they were "hard".  The second paper (Mitchell & Hawley) tried some other effects, e.g. Leslie horns, but  was largely preoccupied with getting the noise down.  Newer models, as you know, have much less noise!
+Hawley's previous work on this was a model/paper called SignalTrain ([SignalTrain Demo Page](https://signaltrain.herokuapp.com)), which never achieved great audio quality due to noise artifacts, and which in IMO has been essentially supplanted by works by Christian Steinmentz & Josh Reiss, and cf. works by Marco Martinez et al.  SignalTrain was intended to learn "general" audio effects but for our first paper we stuck with compressors because they were "hard".  The second paper (Mitchell & Hawley) tried some other effects, e.g. Leslie horns, but  was largely preoccupied with getting the noise down.  Newer models, as you know, have much less noise!
 
 One of the general "inverse" effects I had some success with, but never fully investigated, was time alignment. SignalTrain could do it, and what was really interesting is that SignalTrain would fill in the silent gaps created when late audio is moved earlier, not via time-stretching like most humans would do, but by filling in "more" of whatever the signal is -- e.g. by continuing a decaying sine wave without lowering its frequency.
 
