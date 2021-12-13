@@ -1,4 +1,5 @@
 # Learning (to do) Time Alignment
+*or "Neural Beat Detective"*
 
 A proposal for collaboration in the NASH Hackathon.
 
