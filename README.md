@@ -5,7 +5,7 @@ A proposal for collaboration in the NASH Hackathon.
 ## Summary
 Training a network to learn time alignment, e.g. drum performance editing, as an audio effect. In the music production industry, this is "grunt work" that typically done "by hand": algorithms such as Beat Detective provide a good first approximation, but invariably need to be corrected by humans. 
 
-It's been shown (by me, in talks to the AES but not published) that neural networks can learn to do time alignment of audio signals -- i.e. resynthesizing a sequence of randomly-spaced audio samples such that they occur at a regular spacing or "grid."  And I expect that newer/better models could do as well or better, especially models based on transformers, which are "differentiable way to do alignment" (as said by Lucas Kaiser, co-author on "Attention is All You Need" and "Reformer" papers). Recent work by Christian Steinmetz & Josh Reiss, and others around the world, also present interesting candidates for viable models.
+It's been shown (by me, in talks to the AES [such as this one](https://hedges.belmont.edu/AES_ML_2020/), but not published) that neural networks can learn to do time alignment of audio signals -- i.e. resynthesizing a sequence of randomly-spaced audio samples such that they occur at a regular spacing or "grid."  And I expect that newer/better models could do as well or better, especially models based on transformers, which are "differentiable way to do alignment" (as said by Lucas Kaiser, co-author on "Attention is All You Need" and "Reformer" papers). Recent work by Christian Steinmetz & Josh Reiss, and others around the world, also present interesting candidates for viable models.
 
 ## Hypothesis
 It seems likely that transformer-based models would outperform purely convnet-based models, however if one were to add a positional encoding scheme (e.g. via extra audio channels) then purely convnet-models might do fine.
@@ -19,7 +19,7 @@ signaltrain.herokuapp.com
 
 One of the general "inverse" effects I had some success with, but never fully investigated, was time alignment. SignalTrain could do it, and what was really interesting is that SignalTrain would fill in the silent gaps created when late audio is moved earlier, not via time-stretching like most humans would do, but by filling in "more" of whatever the signal is -- e.g. by continuing a decaying sine wave without lowering its frequency.
 
-...fill in with picture...
+![time alignment description images](https://raw.githubusercontent.com/drscotthawley/NASH_time_align/main/time_align_description.png)
 
 ## Model Design Ideas
 Multi-channel audio strongly preferred.  Only mono is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
