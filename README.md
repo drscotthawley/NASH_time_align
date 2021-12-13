@@ -1,7 +1,7 @@
 # Learning (to do) Time Alignment
 *or "Neural Beat Detective" / "Beating Beat Detective"*
 
-A proposal for collaboration in the NASH Hackathon.  This is limited-scope project for which diverse ideas, perspectives, and skillsets could really pay off! 
+A proposal for collaboration in the [NASH Hackathon](https://signas-qmul.github.io/nash/).  This is limited-scope project for which diverse ideas, perspectives, and skillsets could really pay off! 
 
 ## Summary
 Training a network to learn time alignment, e.g. drum performance editing, as an audio effect. In the music production industry, this is "grunt work" that typically done "by hand": algorithms such as Beat Detective provide a good first approximation, but invariably need to be corrected by humans. 
