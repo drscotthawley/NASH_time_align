@@ -31,6 +31,7 @@ Use whatever models people think would be best...
 - [steerable-nafx](https://huggingface.co/spaces/akhaliq/steerable-nafx)
 - SignalTrain is "old" and won't work with newest version of libraries (e.g. PyTorch), but I could perhaps update it to use for comparison; there will be probably be noise though.
 - others?
+
 ...and compare results. 
 
 Steinmetz: "Implicit neural representations could be another far out idea"
