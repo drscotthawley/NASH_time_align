@@ -57,6 +57,7 @@ Datasets: Decide how to generate/encode datasets.
 - dataset generation & preparation
 - model training (multiple models).
 - evaluation / comparison of results
+- someone to write the inevitable conference paper. ;-) 
 - ...more?
 
 ## Joining the Team
