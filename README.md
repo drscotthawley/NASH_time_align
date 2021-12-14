@@ -37,7 +37,7 @@ Use whatever models people think would be best...
 Steinmetz: "Implicit neural representations could be another far out idea"
 
 ### Channels?
-Multi-channel audio strongly preferred.  Mono-only is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
+Multi-channel audio support strongly preferred.  Mono-only is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
 
 ### Overall Strategy?
 1. Re-synthesize all audio (Hawley's default idea) or
