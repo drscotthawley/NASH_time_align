@@ -4,7 +4,7 @@
 A proposal for collaboration in the [NASH Hackathon](https://signas-qmul.github.io/nash/).  This is limited-scope project for which diverse ideas, perspectives, and skillsets could really pay off! 
 
 ## Summary
-Training a network to learn time alignment, e.g. drum performance editing, as an audio effect. In the music production industry, this is "grunt work" that typically done "by hand": tools such as [Beat Detective](https://www.wikiaudio.org/beat-detective/) provide a good first approximation, but invariably need to be corrected by humans. 
+The idea is to train a neural network to perform time alignment, e.g. drum performance editing, as an audio effect. In the music production industry, this is "grunt work" that typically done "by hand": tools such as [Beat Detective](https://www.wikiaudio.org/beat-detective/) provide a good first approximation, but invariably need to be corrected by humans. 
 
 (**Note:** we say "drum editing" but time-alignment can be applied to any recording of a live performance, e.g. guitars & vocals. Somewhat unique to the drum domain is the fixing of "flam," i.e., cases when different drums/objects are not all hit at quite the same time.)
 
