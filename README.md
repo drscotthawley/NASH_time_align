@@ -66,6 +66,7 @@ The NASH Hackathon has setup [this Trello board](https://trello.com/invite/b/f99
 ## Desired Skill-Sets
 - Anybody actually used Beat Detective much? ;-) I haven't in probably a decade
 - Usual ML skills: Python proficiency, ability to read instructions & train a model, evaluate a model 
+- thinking up a cool name for the project? ;-) 
 - ...more?
 
 ## Questions For You
