@@ -74,5 +74,5 @@ The NASH Hackathon has setup [this Trello board](https://trello.com/invite/b/f99
 - Other thoughts/comments/ideas/questions?  
 
 
-## Ethical Issues
+## Ethics Considerations
 Drum editing is often viewed as a thankless task and thus is typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment opportunities in the music production industry. However the added "win" of time-saving may open up new opportunities for entry-level work for which we are not yet aware. 
