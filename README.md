@@ -59,7 +59,7 @@ Datasets: Decide how to generate/encode datasets.
 - evaluation / comparison of results
 - ...more?
 
-## Joining
+## Joining the Team
 The NASH Hackathon has setup [this Trello board](https://trello.com/invite/b/f99P2bLG/fddb3c36457bc5901db563bc06e33a67/brainstorming-team-forming) for organizing teams.  Please find this project under "Team Members Wanted" and join! 
 
 ## Desired Skill-Sets
