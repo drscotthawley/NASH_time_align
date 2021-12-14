@@ -53,14 +53,14 @@ Datasets: Decide how to generate/encode datasets.
     * Machine-generated data: Write code to grab "samples" and paste them along a grid (for targets) and "randomly messed up" (for inputs). I have some of this already [in the SignalTrain code](https://github.com/drscotthawley/signaltrain/blob/7d93cb4b63cc4ebd1a2f7a06e3192d755f56739d/signaltrain/audio.py#L585).
     * Human-edited data: I could ask for human-edited datasets from Nashville engineers (i.e., before & after editing), however note that these will all likely include time-stretching -- which is not necessarily a bad thing, just a "feature" to keep in mind.
 
-## Ethical Issues
-Drum editing is often viewed as a thankless task and thus is typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment opportunities in the music production industry. However the added "win" of time-saving may open up new opportunities for entry-level work for which we are not yet aware. 
-
 ## Team Member Roles
 - dataset generation & preparation
 - model training (multiple models).
 - evaluation / comparison of results
 - ...more?
+
+## Joining
+The NASH Hackathon has setup [this Trello board](https://trello.com/invite/b/f99P2bLG/fddb3c36457bc5901db563bc06e33a67/brainstorming-team-forming) for organizing teams.  Please find this project under "Team Members Wanted" and join! 
 
 ## Desired Skill-Sets
 - Anybody actually used Beat Detective much? ;-) I haven't in probably a decade
@@ -72,3 +72,7 @@ Drum editing is often viewed as a thankless task and thus is typically relegated
 - How would you like to be involved?
 - What model(s) do you think we should include?
 - Other thoughts/comments/ideas/questions?  
+
+
+## Ethical Issues
+Drum editing is often viewed as a thankless task and thus is typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment opportunities in the music production industry. However the added "win" of time-saving may open up new opportunities for entry-level work for which we are not yet aware. 
