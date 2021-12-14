@@ -26,7 +26,14 @@ One of the general "inverse" effects that SignalTrain showed some success with, 
 ## Model Design Ideas
 
 ### Architecture(s)?
-Use whatever models people think would be best (e.g. Steinmetz's [micro-tcn](https://csteinmetz1.github.io/tcn-audio-effects/) or [steerable-nafx](https://huggingface.co/spaces/akhaliq/steerable-nafx), or others) and compare results. SignalTrain is "old" and won't work with newest version of libraries (e.g. PyTorch), but I could perhaps update it to use for comparison; there will be probably be noise though.
+Use whatever models people think would be best...
+- [micro-tcn](https://csteinmetz1.github.io/tcn-audio-effects/)
+- [steerable-nafx](https://huggingface.co/spaces/akhaliq/steerable-nafx)
+- SignalTrain is "old" and won't work with newest version of libraries (e.g. PyTorch), but I could perhaps update it to use for comparison; there will be probably be noise though.
+- others?
+...and compare results. 
+
+Steinmetz: "Implicit neural representations could be another far out idea"
 
 ### Channels?
 Multi-channel audio strongly preferred.  Mono-only is useful, but true drum editing requires 5+ input channels. Multi-channel would also allow positional encoding and/or a "metronome track".
