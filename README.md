@@ -17,7 +17,7 @@ It seems likely that transformer-based models would outperform purely convnet-ba
 
 ![time alignment description images](https://raw.githubusercontent.com/drscotthawley/NASH_time_align/main/time_align_description.png)
 
-Note how in the above image the Output (green) and Target (red) waveforms are essentially on top of each other. *(Image source: ["SignalTrain: Profiling Audio Compressors with Deep Neural Networks"](https://hedges.belmont.edu/AES_ML_2020), London AES Meeting, July 24, 2019.)*
+Note how in the above image the Output (green) and Target (red) waveforms are essentially on top of each other. *(Image source: ["Profiling musical audio processing effects with deep neural networks"](https://docs.google.com/presentation/d/1j37RzWoxKXANQup10ofKtQjxLDVdKTX-1lNHMWy24Sg/edit?usp=sharing), Acoustical Society of America Meeting, Nov 6, 2018.)*
 
 Hawley's previous work on this was a model/paper called SignalTrain ([SignalTrain Demo Page](https://signaltrain.herokuapp.com)), which never achieved great audio quality due to noise artifacts, and which in IMO has been essentially supplanted by works by Christian Steinmentz & Josh Reiss, and cf. works by Marco Martinez et al.  SignalTrain was intended to learn "general" audio effects but for our first paper we stuck with compressors because they were "hard".  The second paper (Mitchell & Hawley) tried some other effects, e.g. Leslie horns, but  was largely preoccupied with getting the noise down.  Newer models, as you know, have much less noise!
 
