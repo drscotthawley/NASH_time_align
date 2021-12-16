@@ -80,9 +80,9 @@ The NASH Hackathon has setup [this Trello board](https://trello.com/invite/b/f99
 - Other thoughts/comments/ideas/questions?  
 
 ## Motivations/Confessions/Prior Art
-- Confession:TBH I don't actually care about building an "app", my motivation is more about exploring how neural networks are able to learn (or not learn) various processes -- time alignment was just one thing that SignalTrain wasn't "designed" to do but it could still learn, and I thought that "learning capacity" was fascinating!  Beat Detective and tools by Slate (drum replacement), and [SynchroArts](https://www.synchroarts.com/) are great, and many people have worked on this sort of problem and produced products (that I don't presume to actually try to "beat"!).  But if you want to make an app from this, great! MIT license on what we make together. 
+- **Confession:** TBH I don't actually care about building an "app", my motivation is more about exploring how neural networks are able to learn (or not learn) various processes -- time alignment was just one thing that SignalTrain wasn't "designed" to do but it could still learn, and I thought that "learning capacity" was fascinating!  Beat Detective and tools by Slate (drum replacement), and [SynchroArts](https://www.synchroarts.com/) are great, and many people have worked on this sort of problem and produced products (that I don't presume to actually try to "beat"!).  But if you want to make an app from this, great! MIT license on what we make together. 
 
-- Paper: ["Using Neural Networks to Compute Time Offsets from Musical Instruments"](https://www.aes.org/e-lib/browse.cfm?elib=20726) by Pereira, Igor; Distante, Cosimo; Silveira, Luiz F.; Gonçalves, Luiz, AES Journal, 2020. 
+- **Paper:** ["Using Neural Networks to Compute Time Offsets from Musical Instruments"](https://www.aes.org/e-lib/browse.cfm?elib=20726) by Pereira, Igor; Distante, Cosimo; Silveira, Luiz F.; Gonçalves, Luiz, AES Journal, 2020. 
 
 ## Ethics Considerations
 Drum editing is often viewed as a thankless task and thus is typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment opportunities in the music production industry. However the added "win" of time-saving may open up new opportunities for entry-level work for which we are not yet aware. 
