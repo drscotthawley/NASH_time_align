@@ -1,5 +1,5 @@
 # Learning (to do) Time Alignment
-*or "Neural Beat Detective" 
+*or "Neural Beat Detective"* 
 
 A proposal for collaboration in the [NASH Hackathon](https://signas-qmul.github.io/nash/).  This is limited-scope project for which diverse ideas, perspectives, and skillsets could really pay off! 
 
