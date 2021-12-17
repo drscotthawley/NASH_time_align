@@ -84,5 +84,13 @@ The NASH Hackathon has setup [this Trello board](https://trello.com/invite/b/f99
 
 - **Paper:** ["Using Neural Networks to Compute Time Offsets from Musical Instruments"](https://www.aes.org/e-lib/browse.cfm?elib=20726) by Pereira, Igor; Distante, Cosimo; Silveira, Luiz F.; Gonçalves, Luiz, AES Journal, 2020. 
 
+## Code, etc:
+- Christian's micro-tcn original code is linked to above
+- My fastai notebook for training micro-tcn: https://drscotthawley.github.io/fastproaudio/td_demo.html
+- Francois Fleuret has a nice "AttentionToy1D" code (see [Twitter thread](https://twitter.com/francoisfleuret/status/1263516788479922176)) that could be use to quickly play around with alignment-like tasks. 
+- SignalTrain is linked to above.
+- Any good audio-to-audio Transformer models that anyone would recommend, e.g. anything at HuggingFace? 
+
+
 ## Ethics Considerations
 Drum editing is often viewed as a thankless task and thus is typically relegated to interns.  A system that significantly outperforms Beat Detective may result in reduced wages and fewer entry-level employment opportunities in the music production industry. However the added "win" of time-saving may open up new opportunities for entry-level work for which we are not yet aware. 
